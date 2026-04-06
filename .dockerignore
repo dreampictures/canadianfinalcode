@@ -1,0 +1,36 @@
+# Dependencies
+node_modules
+
+# Build output (we rebuild in Docker)
+dist
+
+# Development files
+.git
+.gitignore
+*.md
+.env
+.env.*
+
+# Replit specific
+.replit
+replit.nix
+.config
+.cache
+.upm
+
+# IDE
+.vscode
+.idea
+
+# Logs
+*.log
+npm-debug.log*
+
+# Test files
+*.test.ts
+*.spec.ts
+__tests__
+
+# Misc
+.DS_Store
+Thumbs.db
