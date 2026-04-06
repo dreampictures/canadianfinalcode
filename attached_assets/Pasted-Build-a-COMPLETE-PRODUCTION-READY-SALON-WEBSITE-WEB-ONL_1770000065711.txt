@@ -1,0 +1,83 @@
+Build a COMPLETE, PRODUCTION-READY SALON WEBSITE (WEB ONLY, NOT MOBILE APP).
+
+IMPORTANT DEPLOYMENT REQUIREMENTS:
+- This website MUST be deployable on Fly.io
+- Backend MUST listen on 0.0.0.0 and use process.env.PORT
+- Use Node.js + Express (NO experimental frameworks)
+- Avoid complex ORMs unless absolutely required
+- Use PostgreSQL with plain SQL or very simple queries
+- All database tables must be created automatically on startup if missing
+
+TECH STACK:
+- Backend: Node.js, Express
+- Database: PostgreSQL
+- Frontend: Clean HTML/CSS/JS (or simple React if needed)
+- No server-side rendering complexity
+- No Replit-specific dependencies
+
+WEBSITE FEATURES (MATCH EXACTLY):
+
+PUBLIC PAGES:
+1. Home page
+   - Hero section with “Beauty is Our Duty”
+   - Verify Certificate button
+   - Services preview
+   - Why Choose Us
+2. About page
+3. Services & Courses page
+4. Our Work (gallery)
+5. Contact page with form
+6. Verify Certificate page
+   - Input: Certificate Number
+   - On submit: fetch certificate from database
+   - Show VALID / INVALID result
+   - Dedicated verification result page
+
+CERTIFICATE SYSTEM:
+- Certificates stored in PostgreSQL
+- Fields:
+  student_name
+  certificate_number (unique)
+  course_name
+  course_duration
+  attendance_percentage
+  grade
+  issue_date
+  student_photo
+  qr_code_url
+  verify_url
+
+QR CODE:
+- Each certificate should generate a QR code
+- QR redirects to:
+  /verify?certificate=XXXX
+
+ADMIN PANEL:
+- Simple login (no OAuth)
+- Admin can:
+  - Create certificate
+  - View all certificates
+  - Delete certificates
+  - View contact messages
+  - Add salon work/gallery items
+
+BACKEND REQUIREMENTS:
+- Auto-create tables if not exist
+- Do NOT crash if DB is empty
+- Graceful error handling
+- Health check endpoint: /api/health
+
+DEPLOYMENT SAFETY:
+- Server MUST start even if database is empty
+- NO hardcoded ports
+- NO localhost-only bindings
+- NO Replit-only environment assumptions
+
+DESIGN:
+- Match luxury salon aesthetic
+- Similar layout and visuals as a premium salon website
+- Clean, elegant, brown/cream color palette
+
+OUTPUT:
+- Full working project
+- Ready to deploy on Fly.io without modification

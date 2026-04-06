@@ -1,0 +1,55 @@
+I have already created a fresh salon website. 
+Now I want ONLY the following updates. 
+Do NOT redesign the website, layout, pages, routing, or backend logic. 
+Keep everything else exactly the same.
+
+1. LOGO UPDATE (IMPORTANT)
+- Replace the text-based salon name shown in the header/navbar on all pages with a PNG logo image.
+- The logo file will be uploaded in the project (for example: /public/logo.png).
+- The logo must appear in:
+  - Header / Navbar on all pages
+  - Footer
+- The logo should be responsive and properly aligned (same position where salon name text was earlier).
+- Remove any hardcoded salon name text from header.
+
+2. WEBSITE COLOR THEME
+- Update the global website color theme to match the uploaded salon logo.
+- Primary color: warm brown / copper tone similar to the logo
+- Secondary color: soft cream / off-white background
+- Accent color: darker brown for buttons, headings, and highlights
+- Update:
+  - Buttons
+  - Links
+  - Headings
+  - Section highlights
+- Do NOT change fonts or layout structure.
+
+3. CERTIFICATE DESIGN (ONLINE DISPLAY ONLY)
+- Certificates are NOT generated as PDFs.
+- Certificates are NOT downloaded.
+- Certificates are NOT printed.
+- Certificate is only displayed ONLINE on the verification page.
+
+4. CERTIFICATE LAYOUT (ONLINE VIEW)
+- Certificate must be landscape orientation.
+- Top center: salon PNG logo.
+- Right side: student photo.
+- Left side / center: certificate details (name, course, certificate number, issue date, etc.).
+- Remove QR code completely (no QR anywhere).
+- Verification page should only show:
+  - Valid / Invalid status
+  - Certificate details
+  - Student photo
+  - Salon logo
+
+5. ADMIN / DATA LOGIC
+- Keep existing database structure.
+- Keep existing verification logic.
+- No changes to API routes or backend unless required for layout rendering.
+
+6. FILE STRUCTURE
+- Use the existing React + TypeScript structure.
+- Logo should be loaded from public assets.
+- Styling should be done via existing CSS / Tailwind / styles (do not introduce new frameworks).
+
+Only implement these updates and confirm once done.

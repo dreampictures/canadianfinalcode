@@ -1,0 +1,109 @@
+Task: Update the existing website (do NOT recreate from scratch).
+The website is already working; only apply the changes below carefully.
+
+1️⃣ Logo Replacement (Important)
+
+The website name text (e.g. “LuxeSalon” or any text title in header/navbar) must be removed.
+
+Replace it with a PNG logo image.
+
+
+The logo must appear:
+
+In the top navigation bar on all pages
+
+In the certificate layout (top center)
+
+2️⃣ Website Color Theme (Based on Logo)
+
+Update the entire website color palette to match the uploaded salon logo.
+
+Primary colors to derive from logo:
+
+Warm brown / copper tones
+
+Soft cream / off-white backgrounds
+
+Apply colors consistently to:
+
+Header & footer
+
+Buttons (Verify Certificate, Get in Touch, etc.)
+
+Headings & section highlights
+
+Keep the website luxury, premium, salon-style (no bright or neon colors).
+
+3️⃣ Certificate System – IMPORTANT CHANGE
+
+Remove QR code generation from the online certificate.
+
+Certificates will be designed manually in Photoshop, NOT generated visually by the website.
+
+The website’s role is verification only.
+
+Certificate rules:
+
+Online certificate page should:
+
+Display verification result only
+
+Show student details fetched from database:
+
+Student Name
+
+Course Name
+
+Certificate Number
+
+Issue Date
+
+Grade / Duration
+
+Student Photo (right side)
+
+NO QR code shown anywhere online
+
+Verification page should clearly say:
+
+✅ “Valid Certificate” OR ❌ “Invalid Certificate”
+
+4️⃣ Certificate Layout (Online View)
+
+Certificate verification result layout must be:
+
+Landscape style
+
+Salon PNG logo at the top
+
+Student photo on the right side
+
+Text details on the left
+
+This is verification preview only, not a printable certificate.
+
+5️⃣ What NOT to Change
+
+Do NOT change:
+
+Existing pages (Home, About, Services, Our Work, Contact)
+
+Database structure unless required for verification
+
+Routing and basic functionality
+
+Do NOT add mobile app features — this is a website only.
+
+6️⃣ Final Goal
+
+A luxury salon website that:
+
+Uses logo instead of text name
+
+Matches logo colors
+
+Shows certificate verification only
+
+Looks professional, clean, and premium
+
+Website must remain compatible for deployment on Fly.io.
