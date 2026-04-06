@@ -122,7 +122,7 @@ export async function registerRoutes(
   });
 
   app.get(api.certificates.verify.path, async (req, res) => {
-    const cert = await storage.getCertificateByNumber(req.params.number);
+    const cert = await storage.getCertificateByNumber(String(req.params.number));
     if (!cert) return res.status(404).json({ message: "Certificate not found" });
     res.json(cert);
   });
